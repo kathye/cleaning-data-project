@@ -1,7 +1,7 @@
 cleaning-data-project
 =====================
 
-The objective of this project was to get the human activity recognition using smatrtphones data set from the archive of the information and computer sciences department of the University of California; extract a subset of columns into a tidy data and compute averages by subject and activity for 66 variables.
+The objective of this project was to get the human activity recognition using smatrtphones data set from the archive of the information and computer sciences department of the University of California; extract a subset of columns into a tidy data set and compute averages by subject and activity for 66 variables.
 
 Data description link: http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones
 
@@ -21,7 +21,7 @@ Requires package sqldf
 
 The first steps of the run_analyis program are to read the needed text files into data frames. These data frames have the same name as the cooresponding text file. At this time, the subjects file and activities file are combined with the data file. The train and test data frames are then merged. 
 
-From the larger data set, through SQL, the mean and standard deviation columns are extracted. After reading the description in the features_info.txt file on the UC site, I included columns with mean() or std() in the variable name because they were true mean and standard deviation fields and not derived columns. Note about sqldf: I was a little hesistant about using a package that is not part of the base R packages. But I went ahead with it since we have used the package in this course on quiz 2 and have not used regular expressions or grep -- what I would have used in place of the SQL. 
+From the larger data set, through SQL, the mean and standard deviation columns are extracted. After reading the description in the features_info.txt file on the UCI site, I included columns with mean() or std() in the variable name because they were true mean and standard deviation fields and not derived columns. Note about sqldf: I was a little hesistant about using a package that is not part of the base R packages. But I went ahead with it since we have used the package in this course on quiz 2 and have not used regular expressions or grep -- what I would have used in place of the SQL. 
 
 The activity column is then added to the data frame by translating the numeric value into a descriptive label. The original numeric column is dropped from the data frame.
 
