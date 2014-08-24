@@ -1,7 +1,7 @@
 
 The objective of the course project was to extract a tidy data set from the
 Human Activity Recognition Using Smartphones Data Set. Listed below are 
-the sequenc order, variable name and units for the fields that are extracted 
+the sequence order, variable name and units for the fields that are extracted 
 from the full data set.
 
 For a complete description of the original data set and sources, you can visit:
