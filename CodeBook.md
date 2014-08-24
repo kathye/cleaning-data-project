@@ -9,10 +9,10 @@ For a complete description of the original data set and sources, you can visit:
 http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones
 
 
- 1 subject sequence number for 30 individuals 
- 2 activity * 
- 3 tBodyAcc-mean()-X time 
- 4 tBodyAcc-mean()-Y time 
+ 1 subject sequence number for 30 individuals
+ 2 activity *
+ 3 tBodyAcc-mean()-X time
+ 4 tBodyAcc-mean()-Y time
  5 tBodyAcc-mean()-Z time 
  6 tBodyAcc-std()-X time 
  7 tBodyAcc-std()-Y time 
