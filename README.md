@@ -19,7 +19,7 @@ Requires package sqldf
 
 ###Description: 
 
-The first steps of the run_analyis program are to read the needed text files into data frames. These data frames have the same name as the cooresponding text file. At this time, the subjects file and activities file are combined with the data file. The train and test data frames are then merged. 
+The first steps of the run_analyis program are to read the needed text files into data frames. These data frames have the same name as the corresponding text file. At this time, the subjects file and activities file are combined with the data file. The train and test data frames are then merged. 
 
 From the larger data set, through SQL, the mean and standard deviation columns are extracted. After reading the description in the features_info.txt file on the UCI site, I included columns with mean() or std() in the variable name because they were true mean and standard deviation fields and not derived columns. Note about sqldf: I was a little hesistant about using a package that is not part of the base R packages. But I went ahead with it since we have used the package in this course on quiz 2 and have not used regular expressions or grep -- what I would have used in place of the SQL. 
 
